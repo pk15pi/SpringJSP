@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpSession;
 @Controller
 public class HomeController {
 
-    @GetMapping("/")
+	@GetMapping({"/", "/home", "/"})
     public String home(HttpSession session) {
     	if (session.getAttribute("username") == null) {
     		return "login";

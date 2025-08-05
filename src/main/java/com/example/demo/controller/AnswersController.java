@@ -20,7 +20,7 @@ public class AnswersController {
         this.questionService = questionService;
     }
 
-    @GetMapping("/")
+    @GetMapping
     public String listAnswerss(Model model) {
         model.addAttribute("answer", AnswersService.getAllAnswers());
         model.addAttribute("questions", questionService.getAllQuestions());

@@ -25,8 +25,8 @@ public class LayoutInterceptor implements HandlerInterceptor {
 
         // Add original view as contentPage
         modelAndView.addObject("contentPage", originalViewName + ".jsp");
-
+        
         // Replace view with template
-        modelAndView.setViewName("template");
+        modelAndView.setViewName("templates/template");
     }
 }
