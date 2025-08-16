@@ -9,8 +9,11 @@
     <a href="${pageContext.request.contextPath}/subjects">Subjects</a> |
     <a href="${pageContext.request.contextPath}/contact">Contact</a> |
     <a href="${pageContext.request.contextPath}/quiz">Quiz</a> |
-    <a href="${pageContext.request.contextPath}/ajaxTest">Ajax</a> |
+    <a href="${pageContext.request.contextPath}/ajaxTest">AJAX</a> |
 	<a href="${pageContext.request.contextPath}/jsp/intro">Learn JSP</a> |
+	<a href="${pageContext.request.contextPath}/datetime">Date Time</a> |
+    <a href="${pageContext.request.contextPath}/orm">Raw Query - ORM</a> |
+    <a href="${pageContext.request.contextPath}/jsn">JSON</a> |
     <a href="${pageContext.request.contextPath}/logout">Logout</a> |
     
 </div>
